@@ -1,0 +1,13 @@
+peso = int(input("ja qual categoria voce se encaixa com seu peso"))
+
+if peso < 50:
+    print("Voce é peso palha")
+elif peso <= 59.99:
+    print("Voce é peso pluma")
+elif peso <= 75.99:
+    print("Voce é peso leve")
+elif peso <= 87.99:
+    print("Voce é peso pesado")
+else:
+    print("Voce é peso super pesado")
+    print('entrou else')
