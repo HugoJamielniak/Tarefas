@@ -1,0 +1,28 @@
+numero1 = int(input("me de 1 numero"))
+numero2 = int(input("me de outro numero"))
+numero3 = int(input("me de outro numero"))
+
+
+
+if numero1 < numero2 and numero1 < numero3 :
+    print(numero1,  "é o primeiro numero da sequencia")
+elif numero1 > numero2 and  numero1 > numero3 :
+    print(numero1,  "é o ultimo numero da sequencia")
+else:
+    print(numero1, "é o segundo numero da sequencia")
+
+
+
+if numero2 < numero1 and numero2 < numero3 :
+    print(numero2,  "é o primeiro numero da sequencia")
+elif numero2 > numero1 and  numero2 > numero3 :
+    print(numero2,  "é o ultimo numero da sequencia")
+else:
+    print(numero2, "é o segundo numero da sequencia")
+
+if numero3 < numero1 and numero3 < numero2 :
+    print(numero3,  "é o primeiro numero da sequencia")
+elif numero3 > numero1 and  numero3 > numero2 :
+    print(numero3,  "é o ultimo numero da sequencia")
+else:
+    print(numero3, "é o segundo numero da sequencia")
