@@ -1,0 +1,14 @@
+peso = int(input("Qual seu peso em quilograma(KG)?"))
+
+libras = peso * 2
+
+if libras >= 201:
+    print("Sua categoria é Peso-Pesado")
+elif libras >= 176:
+    print("Sua categoria é Cruzador")
+elif libras >= 169:
+    print("Sua categoria é Meio-pesado")
+elif libras >= 161:
+    print("Sua categoria é Super-médio")
+else:
+    print("Sua categoria é inferior a Super-médio")
