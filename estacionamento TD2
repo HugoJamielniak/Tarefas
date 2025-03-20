@@ -1,0 +1,16 @@
+tempo = int(input("Quanto tempo vc ficou no estacionamento em minutos"))
+
+tempoFinal = (tempo-60)% 15
+tempoFinal3 = (tempo - 60) // 15
+
+if tempoFinal > 0 and tempoFinal < 16 :
+    tempoFinal2 = int(1)
+else:
+    tempoFinal2 = 0
+
+Valor = (tempoFinal2 + tempoFinal3) * 1.50 + 8
+
+if tempo <= 60:
+    print("O valor pago será de 8 reais")
+elif tempo > 60:
+    print("O valor pago será de:", Valor)
